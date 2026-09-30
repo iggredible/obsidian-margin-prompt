@@ -1,0 +1,22 @@
+{
+  "name": "obsidian-margin-prompt",
+  "version": "0.1.0",
+  "description": "Leave prompts in your notes as comments, and an LLM carries them out.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "node --import tsx --test comments.test.ts prompt.test.ts providers/claude-code.test.ts providers/providers.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "builtin-modules": "3.3.0",
+    "esbuild": "0.21.5",
+    "obsidian": "^1.5.7",
+    "tsx": "^4.19.0",
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.130.0"
+  }
+}
