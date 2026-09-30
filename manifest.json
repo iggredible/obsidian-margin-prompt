@@ -3,7 +3,7 @@
   "name": "Margin Prompt",
   "version": "0.1.0",
   "minAppVersion": "1.4.0",
-  "description": "Leave prompts in your notes as %% comments %% or <!-- comments -->, and an LLM carries them out.",
+  "description": "Leave prompts in your notes and an LLM carries them out.",
   "author": "Igor Irianto",
   "authorUrl": "https://github.com/iggredible",
   "isDesktopOnly": true
